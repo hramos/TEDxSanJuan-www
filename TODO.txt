@@ -1,5 +1,5 @@
-Import WordPress database and retain tags
-Move all images to Amazon CloudFront and rewrite posts to use new image URL
+! Import WordPress database and retain tags
+Move all images to Rackspace CloudFiles and rewrite posts to use new image URL
 Make HTML files for regular pages and 404/500
 Make a search page using Google Custom Search
 Be able to parse <!--more-->'s used in WP posts and show post up to that tag for previews.

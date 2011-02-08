@@ -4,7 +4,7 @@
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
    <meta name="author" content="H&eacute;ctor Ramos" />
-   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="H&eacute;ctor Ramos" type="application/atom+xml" />
+   <link href="http://feeds.feedburner.com/HectorRamos" rel="alternate" title="H&eacute;ctor Ramos" type="application/atom+xml" />
 
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
@@ -25,28 +25,8 @@
   </div>
   
   {{ content }}
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        H&eacute;ctor Ramos<br />
-        iOS engineer at <a href="http://polsense.com/">Polsense</a><br />
-        hi@hectorramos.com
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/hramos/">github.com/hramos</a><br />
-        <a href="http://twitter.com/hectorramos/">twitter.com/hectorramos</a><br />
-        <a href="http://flickr.com/photos/hramos/">flickr.com/photos/hramos</a>
-      </p>
-    </div>
-    <div class="rss">
-      <a href="http://feeds.feedburner.com/tom-preston-werner">
-        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-      </a>
-    </div>
-  </div>
+
+  {% include footer.html %}
 </div>
 
 <script type="text/javascript">

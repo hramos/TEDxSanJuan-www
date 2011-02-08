@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 
-#multiviews: true
+multiviews: true
 #only works with https://github.com/stammy/jekyll, explained below
 
 source:      .
@@ -13,7 +13,7 @@ markdown:    rdiscount
 permalink:   /:title.html
 
 #base_url: http://paulstamatiou.com
-base_url: /
+base_url: http://jekyll.dev
 description: "iOS development, startups."
 root_desc: "HectorRamos.com"
 
