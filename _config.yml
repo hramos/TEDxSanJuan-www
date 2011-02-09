@@ -12,8 +12,9 @@ pygments:    true
 markdown:    rdiscount
 permalink:   /:title.html
 
-#base_url: http://paulstamatiou.com
+#base_url: http://hectorramos.com
 base_url: http://jekyll.dev
+#base_url: http://publicaccion.net
 description: "iOS development, startups."
 root_desc: "HectorRamos.com"
 

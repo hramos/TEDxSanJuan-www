@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-<div id="post">
-{{ content }}
-</div>
+<article id="post">
+	<header> 
+		<hgroup>
+			<h2><a href="{{ site.base_url }}{{post.url}}" title="{{ page.title }}">{{ page.title }}</a></h2>
+	    	<span><time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time></span>
+		</hgroup>
+	</header> 
+	{{ content }}
 
-{% include post_footer.html %}
+	{% include post_footer.html %}
+</article>
