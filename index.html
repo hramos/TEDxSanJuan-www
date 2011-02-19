@@ -25,9 +25,7 @@ title: H&eacute;ctor Ramos
   		<h1>Bits <small class="subhead">daily chatter</small></h1>
   		<ul class="posts up1">
     	{% for bit in site.bits limit: 15 %}
-			{% if forloop.index > 1 %}
       		<li><span>{{ bit.date | date_to_string }}</span> &raquo; <a href="{{ bit.url }}">{{ bit.title }}</a></li>
-			{% endif %}
     	{% endfor %}
   		</ul>
   	</section>

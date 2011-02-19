@@ -5,24 +5,13 @@ title: Bitstream
 <div id="post">
 	<h1>Bitstream</h1>
 	<p>All bits can be found on this page. You may also be interested in the full <a href="{{site.base_url}}/archive" title="Archive">archive</a>.</p><br/>
-			
-	{% for year in (2005..2015) reversed %}
-		{% if site.bits[year] %}
-		<h2 class="archives">{{ year }}</h2>
-		{% endif %}
-		{% for month in (1..12) reversed %}
-			{% if site.bits[year][month] %}
-			<h3>{{ month | to_month }}</h3>
-			<ul class="archive-page">
-			{% for day in (1..31) reversed %}
-				{% if site.bits[year][month][day] %}
-					{% for bit in site.bits[year][month][day] reversed %}
-					<li><a href='{{ site.base_url }}{{ bit.url }}' title="{{ bit.title }}">{{ bit.title }}</a></li>
-					{% endfor %}
-				{% endif %}
-			{% endfor %}
-			</ul>
-			{% endif %}
-		{% endfor %}
-	{% endfor %}
+						
+	<section>	
+  		<ul class="posts up1">
+    	{% for bit in site.bits limit: 15 %}
+      		<li><span>{{ bit.date | date_to_string }}</span> &raquo; <a href="{{ bit.url }}">{{ bit.title }}</a></li>
+    	{% endfor %}
+  		</ul>
+  	</section>
+
 </div>
