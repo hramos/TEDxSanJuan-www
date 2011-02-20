@@ -15,8 +15,8 @@ html, body {
   height: 100%;
 }
 
-body {
-  background-color: white;
+body { 
+  background-color: #626262;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -35,11 +35,11 @@ h1 {
 }
 
 h1 a {
-	color:#000
+	color:#333
 }
 
 h1 a:visited {
-	color:#000
+	color:#333
 }
 
 h3, h4, h5 {
@@ -57,15 +57,15 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #33a;
 }
 
 a:hover {
-  color: black;
+  color: #333;
 }
 
 a:visited {
-  color: #a0a;
+  color: #33a;
 }
 
 table {
@@ -78,7 +78,10 @@ table {
 /* Home
 /*
 /*****************************************************************************/
-
+#home {
+	background-color: #f2f2f2;
+	padding: 32px 32px 32px 32px;
+}
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -104,33 +107,46 @@ ul.posts {
   font-size: 110%;
   text-align: justify;
   width: 40em;
-  margin: 3em auto 2em auto;
+  margin: 1em auto 2em auto;
   line-height: 1.5em;
 }
 
+.sitename {
+	font-size: 160%;
+}
 .title {
-  color: #a00;
+  color: #eee;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #a00;
+    color: #eee;
     text-decoration: none;
   }
 
   .site .title a:hover {
-    color: black;
+    color: white;
+  }
+
+  .site .title a:active {
+    position: relative;
+	top: 1px;
   }
 
   .site .title a.extra {
-    color: #aaa;
+    color: #eee;
     text-decoration: none;
     margin-left: 1em;
   }
 
   .site .title a.extra:hover {
-    color: black;
+    color: white;
+  }
+
+ .site .title a.extra:active {
+   position: relative;
+   top: 1px;
   }
 
   .site .meta {
