@@ -17,7 +17,7 @@ task :deploy do
   # uploads ALL files b/c I often do site-wide changes and prefer overwriting all
   puts 'DEPLOYING TO PUBLICACCION.NET'
   # remove --rsh piece if not using 22
-  sh "rsync -rtzh --progress _site g--rsh='ssh -p22' hramos@helios:~/jekyll"
+  sh "rsync -rtzh --progress --delete _site/ --rsh='ssh -p22' hramos@helios:~/jekyll"
   puts 'done!'
 end
 
@@ -62,4 +62,21 @@ task :redirects do
    puts "uneven match #{counter_old} to #{counter_new}"
   end
     
+end
+
+desc 'upload images to cloud files'
+task :cloudfiles do
+  require 'cloudfiles'
+  cf = CloudFiles::Connection.new(:username => "", :api_key => "")
+  container = cf.container('www.hectorramos.com_images')
+  
+  my_files = FileList['_uploads/*']
+  my_files.each do |file|
+    filename_chunks = file.split "/"
+    filename_chunks = filename_chunks[1].split "?"
+    puts "Uploading " + filename_chunks[0]
+    object = container.create_object filename_chunks[0], false
+    object.write file
+  end
+  
 end

@@ -1,14 +1,8 @@
 ---
 layout: default
 ---
-<article id="post">
-	<header> 
-		<hgroup>
-			<h2><a href="{{ site.base_url }}{{page.url}}" title="{{ page.title }}">{{ page.title }}</a></h2>
-	    	<span><time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time></span>
-		</hgroup>
-	</header> 
-	{{ content }}
-
-	{% include post_footer.html %}
-</article>
+<section id="home">
+	<ul class="posts post_listing">
+    {% include post_show.html %}
+	</ul>
+</section>

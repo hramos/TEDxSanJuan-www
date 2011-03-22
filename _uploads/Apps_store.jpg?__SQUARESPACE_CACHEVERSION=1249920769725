@@ -1,0 +1,103 @@
+
+
+
+
+  
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+  <meta name="keywords" content="home page, web host, webhost, home, homepage, webpage, square space, squarespace, website, site maker, site builder, website maker, website builder, publishing, personal publishing, personal website, weblog, blog, web log" />
+  <meta name="description" content="Squarespace.  A new way of thinking about website publishing." />
+  <meta name="copyright" content="(c) 2003-2004 Squarespace, Inc." />
+
+  <meta name="MSSmartTagsPreventParsing" content="true" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+
+  <link rel="shortcut icon" href="/universal/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" type="text/css" href="/universal/styles/service.css?CE=24" title="default"/>
+
+  <script type="text/javascript" src="/universal/yui/yahoo/yahoo-min.js?CE=24"></script>
+  <script type="text/javascript" src="/universal/yui/dom/dom-min.js?CE=24"></script>
+  <script type="text/javascript" src="/universal/yui/event/event-min.js?CE=24"></script>
+  <script type="text/javascript" src="/universal/yui/animation/animation-min.js?CE=24"></script>
+  <script type="text/javascript" src="/universal/scripts/global.js?CE=24"></script>
+
+  <title>Squarespace - Application Error</title>
+
+</head>
+
+<body>
+
+<table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0" border="0">
+
+  <tr><td style="height: 50px; background: transparent url(/universal/images/service/service-template-top.jpg) bottom left repeat-x;">&nbsp;</td></tr>
+
+  <tr><td style="text-align: left; padding-top: 50px; padding-bottom: 50px; padding-left: 160px; background: #282828;">
+
+    
+      <div style="text-align: left; margin-bottom: 15px; padding-bottom: 15px; margin-left: -55px;">
+        <a href="http://www.squarespace.com/"><img src="/universal/images/service/service-template-logo.png"/></a>
+      </div>
+
+    
+          <h2>Application Error</h2>
+    
+
+    <div id="content">
+  
+  
+    <!--
+  
+      On: Mon Mar 21 16:22:25 GMT+00:00 2011
+                   Stack: TRACE: org.apache.ojb.broker.PBFactoryException: Borrow broker from pool failed, using PBKey org.apache.ojb.broker.PBKey: jcdAlias=DataStore1, user=webapp, password=***** <- org.apache.ojb.broker.core.PersistenceBrokerFactoryDefaultImpl.createPersistenceBroker(Unknown Source) <- org.apache.ojb.broker.PersistenceBrokerFactory.createPersistenceBroker(Unknown Source) <- com.squarespace.service.OJBService.borrowBroker(OJBService.java:133) <- com.squarespace.util.ResourceRouterUtils.borrowBrokerForResourceRecord(ResourceRouterUtils.java:282) <- com.squarespace.core.routing.RouterInterfaceUtils.borrowBrokerForResourceRecord(RouterInterfaceUtils.java:810) <- com.squarespace.core.servlet.UserRouter.routeRequest(UserRouter.java:67) <- com.squarespace.core.filters.VirtualDomainFilter.doFilter(VirtualDomainFilter.java:214) <- org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235) <- org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) <- com.squarespace.core.filters.EnvironmentSafetyFilter.doFilter(EnvironmentSafetyFilter.java:62) <- org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235) <- org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) <- com.squarespace.core.filters.CrossSiteLoginFilter.doFilter(CrossSiteLoginFilter.java:122) <- org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235) <- org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) <- com.squarespace.core.filters.SessionFailoverFilter.doFilter(SessionFailoverFilter.java:97) <- org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235) <- org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) <- com.squarespace.framework.FrameworkFilter.doFilter(FrameworkFilter.java:41) <- org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235) <- org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) <- org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233) <- org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191) <- org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128) <- org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) <- org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) <- org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293) <- org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849) <- org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583) <- org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454) <- java.lang.Thread.run(Thread.java:662)   
+    -->
+  
+    We're sorry, but an error has occurred with Squarespace that is preventing this request from being completed.
+  
+    <br/><br/>
+  
+    <strong>While this error has been logged by our system, we also recommend you report this error to an administrator at your earliest convenience.</strong>
+  
+    <br/><br/>
+  
+    To assist us in identifying what happened, you can include this encoded error report:
+  
+    <br/><br/><br/>
+  
+    <div class="notice-box" style="font-family: Courier; width: 610px;">
+      --- BEGIN SQUARESPACE ERROR REPORT ---<br/>H4sIAAAAAAAAAOVXzW4bNxCmWwQIUiAIeil620MCbIqEsmQ7sdwYqCXLsBMVMSw7QU8FvTuSVqZI<br/>muTq51IgvfRleug1j9JH6KHv0CG5bmRpt3Z7KZD4YFHz883MRw45+vVPcsdo8iiRY2ouc6bBKJYA<br/>7Ws2hqnUF7SjtdQnoKS2779rPPrjt/fDz8idLrkLTnGmuSVfdkdswmqciUGtZ3UmBt92yX2YJaBs<br/>JkWbM2MuyU9krUse/C39HoxhAyjk92SS5FpD+lpY8iDg5TbjtX1mAdHuGcuSi1ONuXmPmbLkq5qx<br/>UiNGbU8p86P7AnSkBpbEUg8ow0KGQOXonJ5reQGaHrcOWIJW885VEpbMWxLrmEbBJOprOY6UlDzq<br/>s4xD+iTKDdYTHbdewTyqgkXdTjRK0j2eMbOLKbOeS6buvEHvTuGcKfUkUsgDcprufuP+kPb7rk7q<br/>6qSuzuHo3dqrH+zXnxMyU9O7hKzR35vTn2f2i19OT/banZ3KBJbr2on+t7KiF08rABO3P8egTWYs<br/>iARaXlykvg99lnN7NFacJhqQjRXL+ExcCDkVUU/mOoHH1ZGqgvwb5OWOwIonGX6+ftnqFctzz3EB<br/>sSB3u7pT39goxfG7fQLGRzqRuQV9hiJzDe3AtVxhAshbGpd5+DiN7UZpHM+2RmvcZxq8jgT+66Py<br/>VgHLXHzE7fp6dURHEwdLz3ARIHwSiHqZg7HxgtyDPXtejdXPONoZ+ibTNmd8X45ZJg68kKYyLOIy<br/>ZSCmvrl8RBI8wjwTLMDjrcEzFGG/BL/2ECFo5koWDrGIUGEXgmxs/acg6a3A15/dTE5HTDItxRiE<br/>7bE+2PkyQVUGgf7Gp8BRW0tjepmFrhysnqBSbejhxidBTw+fYueMT4Oc4F2wxE+52sM3n3+k/HyY<br/>fw6uVsu0LCs83mb9IyGkErxnmUiZTt9qfPxBv2F8Apj/BF+RuFRX5LxxO9g2DmUws6Ww13ShQZs3<br/>8H3leihNOeYHRdHx25WAE2dmFgfia4gr8gC4fsMVcpVIR+DlA6U5LqoK0OY/gAoBbtqhbTmXFvZS<br/>ptzxLOaX+Lo0bE5zdXO8FR1aq+p1eug/jrVM8CpAZBVW8bI8jAebq8mVo1mZSP4wfG2HtPFIHmLR<br/>HEqCePMQY2t7JWMrx8hBGK8EDiAvj2RHpEpiaz18i13qBpFcxAviomO3wpjgR3H3E4aeDnFKTL11<br/>sQxPJb6VfwHyNQV1Lw0AAA==<br/>--- END SQUARESPACE ERROR REPORT ---
+    </div>  
+  
+  
+
+    </div>
+
+    <ul id="navLinks">
+      <li><strong> <a href="javascript:history.go(-1);">Go Back &raquo;</a></strong></li>
+      <li><a href="http://www.squarespace.com/contact/">Contact Squarespace &raquo;</a></li>
+      <li><a href="http://www.squarespace.com/">Return to the Squarespace Front Page &raquo;</a></li>
+    </ul>
+
+    <div id="footer">
+      Copyright &copy; 2003-2011, Squarespace Inc. unless otherwise noted.  All rights reserved.<br/>
+      <a href="http://www.squarespace.com/">Squarespace</a> |
+      <a href="http://www.squarespace.com/terms">Terms of Service</a> |
+      <a href="http://www.squarespace.com/privacy">Privacy Policy</a>
+    </span>
+
+
+  </td></tr>
+  <tr><td style="height: 50px; background: transparent url(/universal/images/service/service-template-bottom.jpg) top left repeat-x;">&nbsp;</td></tr>
+
+
+
+</table>
+
+</body>
+</html>
+
+

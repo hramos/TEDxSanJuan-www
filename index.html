@@ -10,7 +10,7 @@ title: H&eacute;ctor Ramos
 		{% for post in site.posts limit: 1 %}
 			{% include post_listing.html %}
     	{% endfor %}
-  		</ul>
+  	</ul>
 
   		<ul class="posts up1">
     	{% for post in site.posts limit: 15 %}
@@ -22,7 +22,7 @@ title: H&eacute;ctor Ramos
 	</section>
 	
 	<section>	
-  		<h1>Bits <small class="subhead">daily chatter</small></h1>
+  		<h1>Bits <small class="subhead">smaller updates</small></h1>
   		<ul class="posts up1">
     	{% for bit in site.bits limit: 15 %}
       		<li><span>{{ bit.date | date_to_string }}</span> &raquo; <a href="{{ bit.url }}">{{ bit.title }}</a></li>
@@ -31,30 +31,26 @@ title: H&eacute;ctor Ramos
   	</section>
 
 	<aside>
-		<h1>iOS Apps <small>Personal</small></h1>
+		<h1>iOS Apps <small class="subhead">Personal</small></h1>
 		<ul class="posts">
-			<li><span>July 2010</span> &raquo; <a href="#">Buzzes</a></li>
-			<li><span>August 2009</span> &raquo; <a href="#">COM:LINK</a></li>
-			<li><span>July 2009</span> &raquo; <a href="#">ImageShare</a></li>
-			<li><span>June 2009</span> &raquo; <a href="#">YouTool</a></li>
-			<li><span>October 2008</span> &raquo; <a href="#">iPOS</a></li>
+			<li><span>July 2010</span> &raquo; <a href="buzzes.html">Buzzes</a></li>
+			<li><span>August 2009</span> &raquo; <a href="comlink.htmk">COM:LINK</a></li>
+			<li><span>July 2009</span> &raquo; <a href="imageshare.html">ImageShare</a></li>
+			<li><span>June 2009</span> &raquo; <a href="youtool.html">YouTool</a></li>
+			<li><span>October 2008</span> &raquo; iPOS</li>
 		</ul>
 
-		<h1>iOS Apps <small>Contract</small></h1>
+		<h1>iOS Apps <small class="subhead">Contract</small></h1>
 		<ul class="posts">
-			<li><span>2011</span> &raquo; <a href="#">TBA</a></li>
+			<li><span>April 2011</span> &raquo; TBA (In Development)</li>
 		</ul>
 
-		<h1>iOS Apps <small>Polsense</small></h1>
+		<h1>iOS Apps <small class="subhead">Polsense</small></h1>
 		<ul class="posts">
-			<li><span>December 2009</span> &raquo; <a href="#">Heineken Cheers</a></li>
-			<li><span>2011</span> &raquo; <a href="#">TBA</a></li>
+			<li><span>December 2009</span> &raquo; <a href="http://heinekencheers.com">Heineken Cheers</a></li>
+			<li><span>April 2011</span> &raquo; <a href="#">TBA (Approved by Apple, waiting for Developer approval)</a></li>
 		</ul>
 
-		<h1>Open Source Projects</h1>
-		<ul class="posts">
-			<li><a href="http://github.com/hramos/HRTabBar/">HRTabBar:</a> ??????.</li>
-		</ul>
 	</aside>
 </section>
   
