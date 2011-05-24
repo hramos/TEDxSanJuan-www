@@ -13,7 +13,7 @@ title: H&eacute;ctor Ramos
   	</ul>
 
   		<ul class="posts up1">
-    	{% for post in site.posts limit: 15 %}
+    	{% for post in site.posts limit: 5 %}
 			{% if forloop.index > 1 %}
       		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 			{% endif %}
@@ -24,7 +24,7 @@ title: H&eacute;ctor Ramos
 	<section>	
   		<h1>Bits <small class="subhead">smaller updates</small></h1>
   		<ul class="posts up1">
-    	{% for bit in site.bits limit: 15 %}
+    	{% for bit in site.bits limit: 5 %}
       		<li><span>{{ bit.date | date_to_string }}</span> &raquo; <a href="{{ bit.url }}">{{ bit.title }}</a></li>
     	{% endfor %}
   		</ul>
@@ -37,18 +37,17 @@ title: H&eacute;ctor Ramos
 			<li><span>August 2009</span> &raquo; <a href="comlink.htmk">COM:LINK</a></li>
 			<li><span>July 2009</span> &raquo; <a href="imageshare.html">ImageShare</a></li>
 			<li><span>June 2009</span> &raquo; <a href="youtool.html">YouTool</a></li>
-			<li><span>October 2008</span> &raquo; iPOS</li>
 		</ul>
 
 		<h1>iOS Apps <small class="subhead">Contract</small></h1>
 		<ul class="posts">
-			<li><span>April 2011</span> &raquo; TBA (In Development)</li>
+			<li><span>May 2011</span> &raquo; <a href="http://itunes.apple.com/us/app/eyetour/id414703689">EyeTour</a></li>
 		</ul>
 
 		<h1>iOS Apps <small class="subhead">Polsense</small></h1>
 		<ul class="posts">
+			<li><span>April 2011</span> &raquo; <a href="http://itunes.apple.com/us/app/miliberty/id424282417">MyLiberty</a></li>
 			<li><span>December 2009</span> &raquo; <a href="http://heinekencheers.com">Heineken Cheers</a></li>
-			<li><span>April 2011</span> &raquo; <a href="#">TBA (Approved by Apple, waiting for Developer approval)</a></li>
 		</ul>
 
 	</aside>
