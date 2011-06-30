@@ -1,55 +1,86 @@
 ---
 layout: default
-title: H&eacute;ctor Ramos
+title: TEDxSanJuan
 ---
 
-<section id="home">
-	<section>
-		<h1>Recent Posts <small class="subhead">long-form articles</small></h1>
-		<ul class="posts post_listing">
-		{% for post in site.posts limit: 1 %}
-			{% include post_listing.html %}
-    	{% endfor %}
-  	</ul>
+<!-- ZONA BANNER -->
+<div id="zona_banner">
+	<div id="baner">
+    	<div id="nav_banner">
+        	<a href="#" id="btn_speakers"></a>
+            <a href="#" id="btn_attend"></a>
+            <div id="newsletter">
+            <form method="post" action="#">
+            	<input type="text" name="user" accesskey="Usuario" placeholder="your name" required />
+                <input type="email" name="email" accesskey="Usuario" placeholder="email address" required />
+                <input type="submit" name="submit" value="JOIN NOW"/>
+            </form>
+            </div>
+        </div>
+        
+        <div id="img_banner">
+        	<div id="sombra_top"></div>
+            <div id="sombra_left"></div>
+            <img border="0" src="images/img_banner.jpg" width="945" height="342" />
+            <div id="sombra_right"></div>
+            <div id="sombra_fot"></div>
+        </div>
+    </div>
+</div>
 
-  		<ul class="posts up1">
-    	{% for post in site.posts limit: 5 %}
-			{% if forloop.index > 1 %}
-      		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-			{% endif %}
-    	{% endfor %}
-  		</ul>
-	</section>
-	
-	<section>	
-  		<h1>Bits <small class="subhead">smaller updates</small></h1>
-  		<ul class="posts up1">
-    	{% for bit in site.bits limit: 5 %}
-      		<li><span>{{ bit.date | date_to_string }}</span> &raquo; <a href="{{ bit.url }}">{{ bit.title }}</a></li>
-    	{% endfor %}
-  		</ul>
-  	</section>
-
-	<aside>
-		<h1>iOS Apps <small class="subhead">Personal</small></h1>
-		<ul class="posts">
-			<li><span>July 2010</span> &raquo; <a href="buzzes.html">Buzzes</a></li>
-			<li><span>August 2009</span> &raquo; <a href="comlink.htmk">COM:LINK</a></li>
-			<li><span>July 2009</span> &raquo; <a href="imageshare.html">ImageShare</a></li>
-			<li><span>June 2009</span> &raquo; <a href="youtool.html">YouTool</a></li>
-		</ul>
-
-		<h1>iOS Apps <small class="subhead">Contract</small></h1>
-		<ul class="posts">
-			<li><span>May 2011</span> &raquo; <a href="http://itunes.apple.com/us/app/eyetour/id414703689">EyeTour</a></li>
-		</ul>
-
-		<h1>iOS Apps <small class="subhead">Polsense</small></h1>
-		<ul class="posts">
-			<li><span>April 2011</span> &raquo; <a href="http://itunes.apple.com/us/app/miliberty/id424282417">MyLiberty</a></li>
-			<li><span>December 2009</span> &raquo; <a href="http://heinekencheers.com">Heineken Cheers</a></li>
-		</ul>
-
-	</aside>
+<!-- CONTENIDO -->
+<section>
+	<div id="section_content">
+    	<div id="column_left">
+        	<img border="0" src="images/logo_secundario.jpg" width="234" height="58" />
+            
+            <p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxSanJun, where x = independently organized TED event. At our TEDxSanJuan event, TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p>
+            
+            <a href="#" class="view_more left borde">LEARN MORE >></a><a href="#" class="view_more left">More information at www.ted.com/tedx >></a>
+            
+        </div>
+        
+        <div id="column_right">
+        	<a class="solapita active" href="javascript:void(0)">NEWS</a>
+            <a class="solapita tweet" href="javascript:void(0)">TWEETS</a>
+            
+            <div id="cont_solapita">
+            
+            	<div class="caja">
+            		<div class="aviso">
+                    	<span class="fecha_aviso">May 12,2011 - </span><a href="#" class="titulo_aviso">Título del aviso</a>
+                    </div>
+                	<div class="aviso">
+                    	<span class="fecha_aviso">May 12,2011 - </span><a href="#" class="titulo_aviso">Título del aviso</a>
+                    </div>
+                	<div class="aviso">
+                    	<span class="fecha_aviso">May 12,2011 - </span><a href="#" class="titulo_aviso">Título del aviso</a>
+                    </div>
+                	<div class="aviso">
+                    	<span class="fecha_aviso">May 12,2011 - </span><a href="#" class="titulo_aviso">Título del aviso</a>
+                    </div>
+                	<div class="aviso">
+                    	<span class="fecha_aviso">May 12,2011 - </span><a href="#" class="titulo_aviso">Título del aviso</a>
+                    </div>
+                </div>
+                
+                <div class="caja">
+            		<div class="aviso">
+                        <span class="fecha_aviso">2 Days ago</span><br>
+                        <a href="#" class="titulo_aviso">@asd123 </a><span>Speaker nominations are now open.</span>
+                    </div>
+                    <div class="aviso">
+                        <span class="fecha_aviso">2 Days ago</span><br>
+                        <a href="#" class="titulo_aviso">@asd123 </a><span>Speaker nominations are now open.</span>
+                    </div>
+                    <div class="aviso">
+                        <span class="fecha_aviso">2 Days ago</span><br>
+                        <a href="#" class="titulo_aviso">@asd123 </a><span>Speaker nominations are now open.</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="view_more right">VIEW MORE NEWS >></a>
+            </div>
+        </div>
+    </div>
 </section>
-  
