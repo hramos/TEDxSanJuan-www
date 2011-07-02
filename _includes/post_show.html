@@ -1,9 +1,6 @@
-<article> 
-	<header> 
-		<h2>{{ page.title }}</h2>
-	    <span><time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time></span>
-		  <small><a href="{{ site.base_url }}{{page.url}}" title="{{ page.title }}">#</a></small>
-	</header> 
-	{{ content }}
-	{% include post_footer.html %}
-</article>
+<div class="news">
+	<span class="fecha_aviso left">{{ page.date | date_to_string }}</span>
+    <span class="postby right">Posted by Admin | No Comments</span><br>
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+</div>

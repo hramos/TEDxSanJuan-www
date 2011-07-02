@@ -1,22 +1,2 @@
-! Import WordPress database and retain tags
-Move all images to Rackspace CloudFiles and rewrite posts to use new image URL
-Make HTML files for regular pages and 404/500
-! Make a search page using Google Custom Search
-! Be able to parse <!--more-->'s used in WP posts and show post up to that tag for previews.
-Create entire new layout and use Typekit because it makes the wannabe-designer in me happy.
-Figure out layouts and includes for various parts of the site
-! Tags and individual tag pages + fix Jekyll issue with not supporting tags with spaces
-! Archives listed by month/year and individual archive pages to keep URLs like /2011/01
-Sitemap that lists posts, archive pages and tag pages
-! Create a feed template and ensure it correctly redirects to FeedBurner
-! Create include in feed so I can put RSS ads at some point
-Compass for Sass
-! List related posts
-Do lots of .htaccess work to make sure URLs are as close to the old structure as possible and use link rel="canonical" where appropriate.
-Ditch Mint for web stats and go database-free with something like Chartbeat or Reinvigorate (I also have Google Analytics)
-Migrate all comments to Disqus
-Get next/previous post links working
-! Create new section of the site for short-form content, create separate archives page and feed
-Be able to put custom meta descriptions from content in YAML front matter in posts if wanted.
-Write a rakefile to ease some routine tasks like generation and deploy
-miscellany...
+Photo credits: http://www.flickr.com/photos/silversldr/2426759322/in/set-72157624787278423
+Getty?

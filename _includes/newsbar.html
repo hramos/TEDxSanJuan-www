@@ -1,0 +1,7 @@
+<div class="caja">
+	{% for post in site.posts limit: 5 %}
+		<div class="aviso">
+        	<span class="fecha_aviso">{{ post.date | date_to_string }} - </span><a href="{{ post.url }}" class="titulo_aviso">{{ post.title }}</a>
+		</div>
+	{% endfor %}
+</div>

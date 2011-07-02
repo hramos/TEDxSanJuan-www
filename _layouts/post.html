@@ -1,8 +1,25 @@
 ---
 layout: default
 ---
-<section id="home">
-	<ul class="posts post_listing">
-    {% include post_show.html %}
-	</ul>
+
+<!-- NAV -->
+<nav>
+	<ul>
+    	<li><a href="index.html">ABOUT US</a></li>
+        <li><a href="tedx.html">ABOUT TEDx</a></li>
+        <li><a href="speakers.html">SPEAKERS</a></li>
+        <li><a href="venue.html">VENUE</a></li>
+        <li><a href="sponsors.html">SPONSORS</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="blog.html" class="select">NOMINEE BLOG</a></li>
+    </ul>
+</nav>
+
+
+<section>
+	<div id="section_content">
+    	<div id="column_left02">
+		    {% include post_show.html %}
+        </div>
+    </div>
 </section>
