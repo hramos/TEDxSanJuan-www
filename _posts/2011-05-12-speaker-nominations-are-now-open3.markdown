@@ -1,5 +1,5 @@
 --- 
-name: speaker-nominations-are-now-open
+name: speaker-nominations-are-now-open3
 layout: post
 title: Speaker Nominations Are Now Open
 time: 2011-05-12 10:00:00 -04:00

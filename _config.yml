@@ -12,11 +12,13 @@ pygments:    true
 markdown:    rdiscount
 permalink:   /:title.html
 
+paginate: 3
+
 #base_url: http://hectorramos.com
 base_url: http://preview.tedxsanjuan.com
 #base_url: http://publicaccion.net
 description: "Ideas worth sharing."
-root_desc: "TEDxSanJuan"
+root_desc: "TEDx San Juan"
 
 rdiscount:
   extensions: []
