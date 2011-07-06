@@ -6,7 +6,7 @@ title: TEDx San Juan 2011
 <!-- ZONA BANNER -->
 <div id="zona_banner">
 	<div id="zona_banner_content">
-    	<h1>LATEST <b>NEWS</b></h1>
+    	<h1>BROWSE <b>UPDATES</b></h1>
 	</div>
 </div>
 
@@ -15,8 +15,7 @@ title: TEDx San Juan 2011
 	<div id="section_content">
     	<div id="column_left02">
             
-            <p class="bajada">Stay up to date with the latest news and information on TEDx San Juan. To read each article please click on its title or the 'read more' link.</p>
-	    	{% for post in site.posts limit: 3 %}
+	    	{% for post in site.posts %}
 				<div class="news">
 	            	<span class="fecha_aviso left">{{ post.date | date_to_string }}</span>
 	                <span class="postby right">Posted by {{ post.author }} | No Comments</span><br>
@@ -24,24 +23,7 @@ title: TEDx San Juan 2011
 	                {{ post.content | before_fold }}
 	                <a href="{{ post.url }}" class="view_more">READ MORE >></a>
 	            </div>
-	    	{% endfor %}
-			
-
-            <div id="paginador">
-                <a href="archive">View more...</a>
-            </div>
-
-            <div id="paginador">
-	{% for page in paginator.total_pages %}
-		{% if page == paginator.page %}
-    	<span class="actual">{{ page }}</span>
-		{% else %}
-        <a href="/page{{page}}">{{ page }}</a>
-		{% endif %}
-        <span>|</span>
-	{% endfor %}
-            </div>
-            
+	    	{% endfor %}            
         </div>
         
 	    {% include right_column.html %}

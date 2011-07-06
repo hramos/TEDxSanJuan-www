@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 
-multiviews: true
+#multiviews: true
 #only works with https://github.com/stammy/jekyll, explained below
 
 source:      .
@@ -12,7 +12,6 @@ pygments:    true
 markdown:    rdiscount
 permalink:   /:title.html
 
-paginate: 3
 
 #base_url: http://hectorramos.com
 base_url: http://preview.tedxsanjuan.com
@@ -24,3 +23,6 @@ rdiscount:
   extensions: []
   
 exclude: ['Rakefile', 'README.markdown', 'config.rb', 'redirect.txt', 'README.textile', 'TODO.txt', 'new.txt', 'old.txt', '_site.zip', '.htaccess']
+
+
+paginate: 3

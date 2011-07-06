@@ -1,11 +1,11 @@
 <div id="column_right02">
 	<img border="0" src="images/thumb.jpg" width="300" />
-    <div class="bajada">In December 2011, San Juan, Puerto Rico will host its firstTEDx event.</div>
+    <div class="bajada">In November 2011, San Juan, Puerto Rico will host its first TEDx event.</div>
     <br>
     <h2>LATEST <b>NEWS</b></h2>
 	{% for post in site.posts limit: 5 %}
     <div class="aviso02"><span class="fecha_aviso">{{ post.date | date_to_string }}</span><br><a href="{{ post.url }}" class="titulo_aviso">{{ post.title }}</a></div>
 	{% endfor %}
 
-    <a href="blog" class="view_more right">VIEW MORE NEWS >></a>
+    <a href="archive" class="view_more right">VIEW MORE NEWS >></a>
 </div>
