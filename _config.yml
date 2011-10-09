@@ -13,9 +13,7 @@ markdown:    rdiscount
 permalink:   /:title.html
 
 
-#base_url: http://hectorramos.com
 base_url: http://preview.tedxsanjuan.com
-#base_url: http://publicaccion.net
 description: "Ideas worth sharing."
 root_desc: "TEDx San Juan"
 
