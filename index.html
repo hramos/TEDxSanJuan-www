@@ -1,49 +1,24 @@
 ---
-layout: blog
-title: TEDx San Juan 2011
+layout: aboutus
+title: TEDx SanJuan 2011
 ---
 
-<!-- ZONA BANNER -->
-<div id="zona_banner">
-	<div id="zona_banner_content">
-    	<h1>LATEST <b>NEWS</b></h1>
-	</div>
-</div>
+{% include banner.html %}
 
 <!-- CONTENIDO -->
 <section>
 	<div id="section_content">
-    	<div id="column_left02">
+    	<div id="column_left">
+        	<img border="0" src="http://c255799.r99.cf1.rackcdn.com/logo_secundario.jpg" width="234" height="58" />
             
-            <p class="bajada">Stay up to date with the latest news and information on TEDx San Juan. To read each article please click on its title or the 'read more' link.</p>
-	    	{% for post in site.posts limit: 3 %}
-				<div class="news">
-	            	<span class="fecha_aviso left">{{ post.date | date_to_string }}</span>
-	                <span class="postby right">Posted by {{ post.author }} | No Comments</span><br>
-	                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	                {{ post.content | before_fold }}
-	                <a href="{{ post.url }}" class="view_more">READ MORE >></a>
-	            </div>
-	    	{% endfor %}
-			
+			<h2>What is TEDx?</h2>
 
-            <div id="paginador">
-                <a href="archive">View more...</a>
-            </div>
-
-            <div id="paginador">
-	{% for page in paginator.total_pages %}
-		{% if page == paginator.page %}
-    	<span class="actual">{{ page }}</span>
-		{% else %}
-        <a href="/page{{page}}">{{ page }}</a>
-		{% endif %}
-        <span>|</span>
-	{% endfor %}
-            </div>
+            <p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxSanJun, where x = independently organized TED event. At our TEDxSanJuan event, TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p>
+            
+            <a href="tedx.html" class="view_more left borde">LEARN MORE >></a><a href="http://www.ted.com/tedx" class="view_more left">More information at www.ted.com/tedx >></a>
             
         </div>
         
-	    {% include right_column.html %}
+        {% include sidebar.html %}
     </div>
 </section>
