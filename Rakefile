@@ -67,8 +67,11 @@ end
 desc 'upload images to cloud files'
 task :cloudfiles do
   require 'cloudfiles'
-  cf = CloudFiles::Connection.new(:username => "", :api_key => "")
-  container = cf.container('www.hectorramos.com_images')
+  cf = CloudFiles::Connection.new(:username => ENV['CLOUDFILES_USERNAME'], :api_key => ENV['CLOUDFILES_API_KEY'])
+  container = cf.container('www.tedxsanjuan.com')
+  
+  
+  filenames = Array.new
   
   my_files = FileList['_uploads/*']
   my_files.each do |file|
@@ -77,6 +80,11 @@ task :cloudfiles do
     puts "Uploading " + filename_chunks[0]
     object = container.create_object filename_chunks[0], false
     object.write file
+    filenames << filename_chunks[0]
   end
   
+  puts "Files:"
+  filenames.each do |filename|
+    puts "#{container.cdn_url}/#{container}/#{filename}"
+  end
 end

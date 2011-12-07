@@ -14,7 +14,7 @@ permalink:   /:title.html
 
 
 #base_url: jekyll.dev
-base_url: http://preview.tedxsanjuan.com
+base_url: http://www.tedxsanjuan.com
 description: "Ideas worth sharing."
 root_desc: "TEDx San Juan"
 

@@ -146,6 +146,27 @@ a:link {-webkit-tap-highlight-color: #fcd700;}
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
 
+.sponsor-big {
+	width: 100%;
+}
+
+.sponsor-half {
+	display:block;
+	overflow:hidden;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	width: 50%;
+	float: left;
+}
+
+.sponsor {
+	display:block;
+	overflow:hidden;
+	border-bottom:#CCC solid 1px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
 /* CORE */
 body{
 	background:#000;
@@ -438,18 +459,46 @@ body{
 		line-height:30px;
 		}
 		
-	h2, h2 a{
-		color:#FF2B06;
-		font:normal 20px Arial, Helvetica, sans-serif;
-		line-height:26px;
-		clear:left;
-		text-decoration:none;
-		}
-		
-	h2 a:hover{
-		text-decoration:underline;
-		color:#FF2B06;
-		}
+		h2, h2 a{
+			color:#FF2B06;
+			font:normal 20px Arial, Helvetica, sans-serif;
+			line-height:26px;
+			clear:left;
+			text-decoration:none;
+			}
+
+		h2 a:hover{
+			text-decoration:underline;
+			color:#FF2B06;
+			}
+
+			h3, h3 a{
+				color:#FF2B06;
+				font:normal 18px Arial, Helvetica, sans-serif;
+				line-height:24px;
+				clear:left;
+				text-decoration:none;
+				}
+
+			h3 a:hover{
+				text-decoration:underline;
+				color:#FF2B06;
+				}
+
+				.news a {
+					font: normal 14px Arial, Helvetica, sans-serif;
+				}
+				.news ul {
+					font: normal 14px Arial, Helvetica, sans-serif;
+				}
+				.news li {
+					font: normal 14px Arial, Helvetica, sans-serif;
+				}
+				
+				.sponsor li {
+					font: normal 14px Arial, Helvetica, sans-serif;
+					color: #666;
+				}
 
 	footer{
 		color:#FFF;
