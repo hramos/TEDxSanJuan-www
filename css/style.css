@@ -331,6 +331,11 @@ body{
 				float:left;
 				border:#E1E1E1 solid 1px;
 				}
+				#column_full{
+					width:800px;
+					float:left;
+					}
+				
 			#column_left02{
 				width:580px;
 				float:left;
