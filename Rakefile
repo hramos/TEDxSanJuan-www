@@ -15,7 +15,7 @@ end
 desc 'deploy to pstam via rsync'
 task :deploy do
   # uploads ALL files b/c I often do site-wide changes and prefer overwriting all
-  puts 'DEPLOYING TO PREVIEW.TEDxSANJUAN.COM'
+  puts 'DEPLOYING TO WWW.TEDxSANJUAN.COM'
   # remove --rsh piece if not using 22
   sh "rsync -rtzh --progress --delete _site/ --rsh='ssh -p22' hramos@helios:~/_tedxsanjuan"
   puts 'done!'
