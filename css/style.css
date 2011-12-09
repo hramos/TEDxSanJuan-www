@@ -167,6 +167,24 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 	margin-bottom:20px;
 }
 
+#livestream_view{
+	padding-left:20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	width:580px;
+	float:left;
+	}
+	
+#livestream_chatter {
+	display:block;
+	float:left;
+	padding-left: 20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+
+
 /* CORE */
 body{
 	background:#000;
@@ -398,15 +416,24 @@ body{
 					background-repeat:no-repeat; 
 					padding:0px 20px 0px 45px;
 					}
-				#cont_solapita{
-					background:#E1E1E1;
-					width:369px;
-					overflow:hidden;
-					clear:left;
-					border-bottom:#ACACAC solid 1px;
-					border-right:#ACACAC solid 1px;
-					padding:15px;
-					}
+					#cont_solapita{
+						background:#E1E1E1;
+						width:369px;
+						overflow:hidden;
+						clear:left;
+						border-bottom:#ACACAC solid 1px;
+						border-right:#ACACAC solid 1px;
+						padding:15px;
+						}
+						#cont_solapita_small{
+							background:#E1E1E1;
+							width:200px;
+							overflow:hidden;
+							clear:left;
+							border-bottom:#ACACAC solid 1px;
+							border-right:#ACACAC solid 1px;
+							padding:15px;
+							}
 					.aviso{
 						border-bottom:#EEEEEE solid 1px;
 						padding:5px 0px;
@@ -504,6 +531,7 @@ body{
 					font: normal 14px Arial, Helvetica, sans-serif;
 					color: #666;
 				}
+				
 
 	footer{
 		color:#FFF;
@@ -546,3 +574,153 @@ body{
 	
 }
 
+
+.speaker_headshot2 {
+	float: left;
+	width: 160px;
+}
+
+#speaker_headshot_daniel {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-daniel.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_daniel:hover {
+	background-position: 0 0;
+}
+
+#speaker_headshot_andrea {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-andrea.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_andrea:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_fernando {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-fernando.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_fernando:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_gio {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-gio.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_gio:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_gaskins {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-gaskins.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_gaskins:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_rigau {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-rigau.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_rigau:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_justo {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-justo.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_justo:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_lawrence {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-lawrence.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_lawrence:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_mayra {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-mayra.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_mayra:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_noel {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-noel.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_noel:hover {
+	background-position: 0 0;
+}
+#speaker_headshot_tara {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-speaker-tara.jpg') bottom;	
+	text-indent: -99999px;
+}
+#speaker_headshot_tara:hover {
+	background-position: 0 0;
+}
+
+.speaker_details {
+	display:block;
+	float: left;
+}
+
+.speaker_name {
+}
+
+.speaker_bio {
+}
+
+.speaker {
+	display:block;
+	overflow:hidden;
+	border-bottom:#CCC solid 1px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	margin-right: 60px;
+	width: 350px;
+	float: left;
+}
