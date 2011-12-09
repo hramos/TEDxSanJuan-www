@@ -724,3 +724,32 @@ body{
 	width: 350px;
 	float: left;
 }
+
+#program {
+	display: block;
+	width: 400px;
+}
+
+#program li {
+	padding-bottom: 10px;
+}
+
+.program_break {
+	color:#666;
+	font:normal 16px Arial, Helvetica, sans-serif;
+	line-height:32px;
+	clear:left;
+	text-decoration:none;
+	padding-left: 50%;
+	padding-bottom: 30px;
+	
+}
+.program_activity {
+		color:#666;
+		font:normal 18px Arial, Helvetica, sans-serif;
+		line-height:26px;
+		clear:left;
+		text-decoration:none;
+		padding-left: 20px;
+		float: right;
+}

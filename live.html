@@ -12,44 +12,43 @@ title: TEDx San Juan 2011
 <section>
 	<div id="section_content">
     	<div id="livestream_view">
-			<p> Please come back on December 9th, 2011 at 9:00 AM AST (local Puerto Rico time) / 8:00 AM Eastern and join us for the live webcast event for TEDx San Juan.</p>
+			<p> <a href="agenda">Agenda</a></p>
+<iframe width="560" height="340" src="http://cdn.livestream.com/embed/tedx?layout=4&amp;height=340&amp;width=560&amp;autoplay=false" style="border:0;outline:0" frameborder="0" scrolling="no"></iframe><div style="font-size: 11px;padding-top:10px;text-align:center;width:560px">Watch <a href="http://www.livestream.com/?utm_source=lsplayer&amp;utm_medium=embed&amp;utm_campaign=footerlinks" title="live streaming video">live streaming video</a> from <a href="http://www.livestream.com/tedx?utm_source=lsplayer&amp;utm_medium=embed&amp;utm_campaign=footerlinks" title="Watch tedx at livestream.com">tedx</a> at livestream.com</div>
 
-			<iframe width="580" height="349" src="http://cdn.livestream.com/embed/tedx?layout=4&color=0xed1c24&autoPlay=true&mute=false&iconColorOver=0xffffff&iconColor=0xffd2d5&allowchat=true&height=385&width=640" style="border:0;outline:0" frameborder="0" scrolling="no"></iframe>			
 			<div class="fb-like" style="margin-bottom:4px; margin-top:4px" data-href="http://www.tedxsanjuan.com/live" data-send="false" data-width="450" data-show-faces="false"></div>
 			
         </div>
 		<div id="livestream_chatter">
-		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-		<script>
-		new TWTR.Widget({
-		  version: 2,
-		  type: 'profile',
-		  rpp: 4,
-		  interval: 6000,
-		  width: 250,
-		  height: 300,
-		  theme: {
-		    shell: {
-		      background: '#e1e1e1',
-		      color: '#000'
-		    },
-		    tweets: {
-		      background: '#e1e1e1',
-		      color: '#000',
-		      links: '#ff2b06'
-		    }
-		  },
-		  features: {
-		    scrollbar: false,
-		    loop: false,
-		    live: false,
-		    hashtags: true,
-		    timestamp: true,
-		    avatars: false,
-		    behavior: 'all'
-		  }
-		}).render().setUser('TEDxSanJuan').start();
-		</script>
+			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'search',
+			  search: '#TEDxSanJuan',
+			  interval: 30000,
+			  title: 'TEDxSanJuan',
+			  subject: '',
+			  width: 250,
+			  height: 318,
+			  theme: {
+			    shell: {
+			      background: '#000000',
+			      color: '#ffffff'
+			    },
+			    tweets: {
+			      background: '#ffffff',
+			      color: '#666666',
+			      links: '#ff2b06'
+			    }
+			  },
+			  features: {
+			    scrollbar: true,
+			    loop: true,
+			    live: true,
+			    behavior: 'default'
+			  }
+			}).render().start();
+			</script>
 		</div>
     </div>
 </section>
