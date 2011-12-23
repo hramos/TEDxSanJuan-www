@@ -286,6 +286,16 @@ body{
 				position:absolute;
 				z-index:2;
 				}
+				#btn_photos{
+					display:block;
+					width:190px;
+					height:66px;
+					background:url(http://c255799.r99.cf1.rackcdn.com/view_photos.png) top center no-repeat;
+					}
+					#btn_photos:hover{
+						background-position:bottom;
+						}
+				
 				#btn_speakers{
 					display:block;
 					width:190px;
@@ -702,6 +712,44 @@ body{
 #speaker_headshot_tara:hover {
 	background-position: 0 0;
 }
+
+#artist_headshot_ynhl {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-artist-ynhl.png') bottom;	
+	text-indent: -99999px;
+}
+#artist_headshot_ynhl:hover {
+	background-position: 0 0;
+}
+
+#artist_headshot_andanza {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-artist-andanza.png') bottom;	
+	text-indent: -99999px;
+}
+#artist_headshot_andanza:hover {
+	background-position: 0 0;
+}
+
+#artist_headshot_tms {
+	float: left;
+	display: block;
+	width: 160px;
+	height: 160px;
+	background: url('http://c255799.r99.cf1.rackcdn.com/split-artist-tms.png') bottom;	
+	text-indent: -99999px;
+}
+#artist_headshot_tms:hover {
+	background-position: 0 0;
+}
+
+
 
 .speaker_details {
 	display:block;
