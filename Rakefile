@@ -12,7 +12,7 @@ def jekyll
   sh 'compass compile'
 end
 
-desc 'deploy to pstam via rsync'
+desc 'deploy to www.tedxsanjuan.com via rsync'
 task :deploy do
   # uploads ALL files b/c I often do site-wide changes and prefer overwriting all
   puts 'DEPLOYING TO WWW.TEDxSANJUAN.COM'
