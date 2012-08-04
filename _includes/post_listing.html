@@ -1,7 +1,0 @@
-<article> 
-	<header> 
-		<h2><a href="{{ site.base_url }}{{post.url}}" title="{{ post.title }}">{{ post.title }}</a></h2>
-	    <span><time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time></span>
-	</header> 
-	<p class="excerpt">{{ post.content | before_fold }}</p>
-</article>
